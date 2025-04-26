@@ -37,6 +37,7 @@
    the external pcre header. */
 
 #include "internal.h"
+#include <stdlib.h>
 
 /* Use a macro for debugging printing, 'cause that eliminates the use of #ifdef
    inline, and there are *still* stupid compilers about that don't like indented

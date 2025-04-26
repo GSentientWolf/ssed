@@ -30,7 +30,7 @@
    necessary.  Returns the number of characters read (not including the
    null terminator), or -1 on error or EOF.  */
 
-size_t
+ssize_t
 getline (lineptr, n, stream)
      char **lineptr;
      size_t *n;

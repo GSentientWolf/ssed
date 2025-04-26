@@ -37,6 +37,7 @@
    the external pcre header. */
 
 #include "internal.h"
+#include <stdlib.h>
 
 uschar pruned[] = {
   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
